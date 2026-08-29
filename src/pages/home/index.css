@@ -1,0 +1,62 @@
+.home-container {
+  min-height: 100vh;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 32px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.home-header a,
+.post-item a {
+  color: #409eff;
+  text-decoration: none;
+}
+
+.logout-btn,
+.pagination button {
+  padding: 8px 12px;
+  border: 0;
+  color: #fff;
+  background: #409eff;
+  cursor: pointer;
+}
+
+.logout-btn {
+  margin-left: 12px;
+  background: #f56c6c;
+}
+
+.home-content {
+  width: 760px;
+  max-width: 90%;
+  margin: 24px auto;
+}
+
+.post-item {
+  padding: 16px;
+  margin-top: 12px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.info {
+  margin-bottom: 0;
+  color: #777;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

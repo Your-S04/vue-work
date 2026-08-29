@@ -1,0 +1,77 @@
+.post-only-container,
+.detail-page {
+  min-height: 100vh;
+}
+
+.post-only-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 32px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.detail-header a,
+.post-container a {
+  color: #409eff;
+}
+
+.detail-content,
+.loading-text {
+  width: 760px;
+  max-width: 90%;
+  margin: 24px auto;
+}
+
+.post-container {
+  width: 520px;
+  max-width: 100%;
+  padding: 20px;
+  margin: 16px auto;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.post-container h1,
+.post-container h2 {
+  margin-top: 0;
+}
+
+.post-container label {
+  display: block;
+  margin-top: 12px;
+}
+
+.post-container input,
+.post-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+}
+
+.post-container textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.post-container button,
+.detail-header button {
+  padding: 8px 12px;
+  margin: 12px 8px 0 0;
+  border: 0;
+  color: #fff;
+  background: #409eff;
+  cursor: pointer;
+}
+
+.detail-header button,
+.delete-button {
+  background: #f56c6c;
+}
